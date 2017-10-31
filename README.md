@@ -41,23 +41,23 @@ python -m ipykernel install --user
 ```
 
 ## 作った環境の操作
-### 作った環境の一覧を表示する。
+### 作った環境の一覧を表示する
 ```
 conda env list
 ```
 
-### 作った環境をexportする。
+### 作った環境をexportする
 ```
 conda env export > myenv.yaml
 ```
 ＊`myenv.yaml`の部分は好きな名前にして良い。ただし、拡張子は`yaml`の方が何かと良い。
 
-### 作った環境をimportする。
+### 作った環境をimportする
 ```
 conda env create --file myenv.yaml
 ```
 
-### 環境の名前を変更する。
+### 環境の名前を変更する
 環境の名前を変更するコマンドはないので、別名のクローンを作ってオリジナルを消す。  
 例）`old_name`環境の名前を`new_name`に変更する
 ```
