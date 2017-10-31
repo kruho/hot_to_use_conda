@@ -1,4 +1,4 @@
-# hot_to_use_conda
+# condaの使い方
 ## インストール
 https://www.anaconda.com/download/  
 にアクセスして、shファイルをダウンロードする。特にこだわりがなければPython3.6の方を使う。  
