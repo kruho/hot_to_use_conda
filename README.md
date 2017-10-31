@@ -40,7 +40,12 @@ conda install nb_conda
 python -m ipykernel install --user
 ```
 
-## 作った環境のexportとimport
+## 作った環境の操作
+### 作った環境の一覧を表示する。
+```
+conda env list
+```
+
 ### 作った環境をexportする。
 ```
 conda env export > myenv.yaml
